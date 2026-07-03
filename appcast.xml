@@ -3,13 +3,13 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.3.0</title>
-            <pubDate>Fri, 03 Jul 2026 13:32:26 +0000</pubDate>
-            <sparkle:version>0.3.0</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <title>0.4.0</title>
+            <pubDate>Fri, 03 Jul 2026 16:29:12 +0000</pubDate>
+            <sparkle:version>0.4.0</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.3.0/MeetingCoach-0.3.0.dmg" length="24440919" type="application/octet-stream" sparkle:edSignature="zh3brCa/LCe0sFXZiYzQLYsUZuvKEXFC4yRwT1sF0g0++P9V4vFBz6y3PbPWp7LiBNikul74mn7+TF0jBbqwCw=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.0/MeetingCoach-0.4.0.dmg" length="24438677" type="application/octet-stream" sparkle:edSignature="GihuWfrPPh2NGuSxC7hIKUqb+9aAG8ctcGVPxT4kCqNS+vM5/QxJr+5sjMRCRLH8L7pa+iCVe8MazwNJXRTjCg=="/>
         </item>
     </channel>
 </rss>
