@@ -3,13 +3,21 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.4.0</title>
-            <pubDate>Fri, 03 Jul 2026 16:29:12 +0000</pubDate>
-            <sparkle:version>0.4.0</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <title>0.4.1</title>
+            <pubDate>Wed, 08 Jul 2026 04:14:14 +0000</pubDate>
+            <sparkle:version>0.4.1</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.0/MeetingCoach-0.4.0.dmg" length="24438677" type="application/octet-stream" sparkle:edSignature="GihuWfrPPh2NGuSxC7hIKUqb+9aAG8ctcGVPxT4kCqNS+vM5/QxJr+5sjMRCRLH8L7pa+iCVe8MazwNJXRTjCg=="/>
+            <description><![CDATA[<h2>Meeting Coach 0.4.1</h2>
+<ul>
+  <li>Fixed: downloading a model on first launch no longer fails with "Could not connect to the server"</li>
+  <li>Fixed: the recommended gemma4 models can now actually be downloaded (updated built-in AI engine)</li>
+  <li>Download problems now show a clear error message instead of silently doing nothing</li>
+  <li>The app no longer leaves its AI engine running after you quit</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.1/MeetingCoach-0.4.1.dmg" length="49379855" type="application/octet-stream" sparkle:edSignature="zWLsnicHx+0mZ745XDDI+JhoO+69QhjiPOTrUDS4t6zOpLgiygLNw5dgwUQF//VmAjfIlbobNmy0/PKHS84uAQ=="/>
         </item>
     </channel>
 </rss>
