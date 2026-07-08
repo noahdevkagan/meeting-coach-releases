@@ -3,20 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.4.3</title>
-            <pubDate>Wed, 08 Jul 2026 17:29:26 +0000</pubDate>
-            <sparkle:version>0.4.3</sparkle:version>
-            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <title>0.4.4</title>
+            <pubDate>Wed, 08 Jul 2026 17:49:56 +0000</pubDate>
+            <sparkle:version>0.4.4</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Coach 0.4.3</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.4.4</h2>
 <ul>
-  <li>Fixed: starting a session no longer reduces your call or system volume at all</li>
-  <li>Smoother transcripts — sentences no longer get chopped into fragments during pauses</li>
-  <li>The mic no longer switches into "call mode" when a session starts</li>
+  <li>Fixed: transcripts turning into garbled fragments during calls (a 0.4.3 regression)</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.3/MeetingCoach-0.4.3.dmg" length="51050734" type="application/octet-stream" sparkle:edSignature="tIZo2sB9LEsU1AGP+o67NFFeU4vLKoRPcnNXqOwEq1T+22mgiKZXFtwVRF8HCOvlQg55eRnp6UemjcxaHnp7Ag=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.4/MeetingCoach-0.4.4.dmg" length="51026028" type="application/octet-stream" sparkle:edSignature="bo3DVzqkOxt5Sn0mDaftNlKtkVoE+mGo5xzU4JLtoVSZtfKC6LKkI8Czen+pAxFPcK2t3XJF92kHU+PRZzSRCQ=="/>
         </item>
     </channel>
 </rss>
