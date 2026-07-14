@@ -3,18 +3,21 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.4.4</title>
-            <pubDate>Wed, 08 Jul 2026 17:49:56 +0000</pubDate>
-            <sparkle:version>0.4.4</sparkle:version>
-            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <title>0.4.6</title>
+            <pubDate>Tue, 14 Jul 2026 19:56:38 +0000</pubDate>
+            <sparkle:version>0.4.6</sparkle:version>
+            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Coach 0.4.4</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.4.6</h2>
 <ul>
-  <li>Fixed: transcripts turning into garbled fragments during calls (a 0.4.3 regression)</li>
+  <li>The coach now praises too: green nudges reinforce your best moves the moment they happen — a great open question that gets them talking, handing someone the decision, refocusing a drifting room, locking commitments, and reflecting their point back</li>
+  <li>Much more accurate transcripts — a new on-device engine (Parakeet) replaces Apple's speech recognizer. Still 100% on your Mac; downloads a ~600 MB model on first session (falls back to the old engine if the model can't load)</li>
+  <li>Fixed: the other side's voice no longer bleeds into your ("You") side of the transcript when you're on speakers — measured on a real call, wrong-speaker words dropped from ~3,800 to ~500</li>
+  <li>Their side of the transcript now comes through in full sentences instead of 2-3 word fragments, and stops dropping quiet words</li>
+  <li>Fixed: large blank spaces between transcript lines, and lines duplicating once speakers were identified</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.4/MeetingCoach-0.4.4.dmg" length="51026028" type="application/octet-stream" sparkle:edSignature="bo3DVzqkOxt5Sn0mDaftNlKtkVoE+mGo5xzU4JLtoVSZtfKC6LKkI8Czen+pAxFPcK2t3XJF92kHU+PRZzSRCQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.6/MeetingCoach-0.4.6.dmg" length="53576941" type="application/octet-stream" sparkle:edSignature="Z1j4AgmxngaZqO9AslGYvvh1lpPod/vdGG9957vzNWPE4uFxJdXtOHM7SxBL3pvkDLQhOi1AVG7LluJxkzkiAA=="/>
         </item>
     </channel>
 </rss>
