@@ -3,25 +3,17 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.4.7</title>
-            <pubDate>Thu, 16 Jul 2026 19:09:13 +0000</pubDate>
-            <sparkle:version>0.4.7</sparkle:version>
-            <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
+            <title>0.4.8</title>
+            <pubDate>Thu, 16 Jul 2026 22:27:15 +0000</pubDate>
+            <sparkle:version>0.4.8</sparkle:version>
+            <sparkle:shortVersionString>0.4.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.4.7</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.4.8</h2>
 <ul>
-  <li>Record push-gate benchmark run for 226a67d</li>
-  <li>Record push-gate benchmark run for 226a67d</li>
-  <li>Skip push gate when outgoing commits touch only bench/history.jsonl</li>
-  <li>Record push-gate benchmark run for 34bb635</li>
-  <li>Hybrid coaching engine: deterministic detectors + per-signal LLM judges</li>
-  <li>Record push-gate benchmark runs; mark countable signals deterministic in rubric</li>
-  <li>Deterministic time-box trigger + rubric-aware prompt stance</li>
-  <li>Rubric + simulator fixes to run the 2026-07-14 leadership backtest</li>
-  <li>Fall back to a real generic rubric, not an empty one; fix stale rubric path</li>
+  <li>Export your transcript: after a session ends, a small download button appears at the top of the transcript panel — click it to save the transcript as a text file</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.7/MeetingCoach-0.4.7.dmg" length="53573312" type="application/octet-stream" sparkle:edSignature="A1pj/i//6TwMnFY6WB2kSwHNl4JsPciMeb4SU6palK51v+xF4IyE61gwWDvegyVhl1naAbwHC0Mu7zqd64/DAQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.4.8/MeetingCoach-0.4.8.dmg" length="53691042" type="application/octet-stream" sparkle:edSignature="NtgweY+3vGNACzurjd9I8wQVpgmE/KV2YZvh3ffcUs1hR97t3LtOqaEHS36ArkaJSYFtG2U0z65yd8IR6Gx0Cw=="/>
         </item>
     </channel>
 </rss>
