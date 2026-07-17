@@ -3,21 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.7</title>
-            <pubDate>Fri, 17 Jul 2026 21:47:23 +0000</pubDate>
-            <sparkle:version>0.5.7</sparkle:version>
-            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
+            <title>0.5.8</title>
+            <pubDate>Fri, 17 Jul 2026 22:38:28 +0000</pubDate>
+            <sparkle:version>0.5.8</sparkle:version>
+            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.7</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.8</h2>
 <ul>
-  <li>Fix CI compile error (unapplied method ref); harden gate build check</li>
-  <li>Match browser helper processes for mic attribution; drop login toggle</li>
-  <li>Detect Slack huddles; ignore dictation; fix notification-perm crash</li>
-  <li>Replace empty progress pane with a 1-2-3 first-session explainer</li>
-  <li>Make the detection pill screenshot-able</li>
+  <li>Add 10 test redemption codes to the AppSumo hash set</li>
+  <li>Single main window; auto-stop coaching when the meeting ends</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.7/MeetingCoach-0.5.7.dmg" length="54305897" type="application/octet-stream" sparkle:edSignature="Hj1Ud3W4P2l412eVxhyFIT+rEGf7s5SiiZeGuhx7647wR2o2JvcrGCYJRccho19D+FHKfyLW7SR1umhEi3tkDA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.8/MeetingCoach-0.5.8.dmg" length="54310328" type="application/octet-stream" sparkle:edSignature="GafVaOIV3HZ9AF+OFVtAITw/C8MxTZUsCJS6Iylk8ua6bJxLfGMqdfYk7WBemZJOnQfLvJO/xLDkDIcVUPhmBQ=="/>
         </item>
     </channel>
 </rss>
