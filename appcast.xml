@@ -3,23 +3,19 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.4</title>
-            <pubDate>Fri, 17 Jul 2026 18:59:25 +0000</pubDate>
-            <sparkle:version>0.5.4</sparkle:version>
-            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <title>0.5.5</title>
+            <pubDate>Fri, 17 Jul 2026 20:23:48 +0000</pubDate>
+            <sparkle:version>0.5.5</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.4</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.5</h2>
 <ul>
-  <li>Scope CI test gate to deterministic suites</li>
-  <li>Sustain browser meeting candidacy on mic, not frontmost</li>
-  <li>Fix CI test gate build: disable code signing like the release build</li>
-  <li>Require the full test gate on CI before every release</li>
-  <li>Split diarized utterances at speaker boundaries; Zoom-style export</li>
-  <li>Add agent onboarding: AGENTS.md, CLAUDE.md, project MCP config</li>
-  <li>Make the local AI engine self-heal when its process dies</li>
+  <li>Default auto-detect ON for fresh installs; daily update checks</li>
+  <li>Close the coaching style sheet on successful save</li>
+  <li>Check for updates hourly instead of Sparkle's 24h default</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.4/MeetingCoach-0.5.4.dmg" length="54243405" type="application/octet-stream" sparkle:edSignature="a6X4gjh1xhkc/WtrsIO17QYBcwIisI4b5yjtCqV55sDJQyiAIwRwFjxYQqKz29rzepEFzjy+5uUereBQiYQNAQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.5/MeetingCoach-0.5.5.dmg" length="54425195" type="application/octet-stream" sparkle:edSignature="hXnQIPd6shfitXeyJ3TMk+z9aJc4VfP+Q19IkDzeSa4FrpNU8kkZgwCxtsw0/KEMHXwOd1mfOm7HwaKnDAUhBw=="/>
         </item>
     </channel>
 </rss>
