@@ -3,31 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.0</title>
-            <pubDate>Fri, 17 Jul 2026 16:42:10 +0000</pubDate>
-            <sparkle:version>0.5.0</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <title>0.5.1</title>
+            <pubDate>Fri, 17 Jul 2026 17:11:39 +0000</pubDate>
+            <sparkle:version>0.5.1</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.1</h2>
 <ul>
-  <li>Polish UI, 15s demo, role-based coaching setup, meeting-detected pill</li>
-  <li>Record benchmark baseline from laptop gate run</li>
-  <li>Fix build: disambiguate AdaptiveThresholds.multiplier reference</li>
-  <li>Make the gitignored ollama resource folder optional in the project spec</li>
-  <li>Apply review findings: overlay rendering, focus efficacy, builder fidelity, bench comparability</li>
-  <li>Add meeting auto-detect with a menu bar presence</li>
-  <li>Add the rubric advisor: evidence-backed suggestions, applied only on approval</li>
-  <li>Move progress to the main window and add focus goals</li>
-  <li>Unify rubrics with live coaching and add an in-app rubric builder</li>
-  <li>Add shareable recap export and persist reviews into session files</li>
-  <li>Add a live talk-share meter to the overlay and transcript panel</li>
-  <li>Add a first-launch demo that replays a sample meeting through the live pipeline</li>
-  <li>Start sessions instantly instead of blocking on the transcription download</li>
-  <li>Store the active rubric under Application Support instead of a dev path</li>
-  <li>Point thanks page at the v0.4.8 DMG</li>
+  <li>Give Debug builds a hammer menu bar icon</li>
+  <li>Go Live starts instantly; mark Debug builds in the version footer</li>
+  <li>Fix wall-of-text transcript in mic-only capture mode</li>
+  <li>Make role tuning work without a local model via built-in presets</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.0/MeetingCoach-0.5.0.dmg" length="54143169" type="application/octet-stream" sparkle:edSignature="JQRWy6iuDysOsbk6hbCwE+9Pp+z4JxTP3kdOS2WPbrVy+W1qsfmBRSkbkXppPVGMnttLhis+B2ULyC5CPoV5CQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.1/MeetingCoach-0.5.1.dmg" length="54173852" type="application/octet-stream" sparkle:edSignature="7dgLJr7As1j1XpGSHfj3zwjF8/6DRPZD27eC5Yk89t5isAeTQW1bf7q1bKdVGLUoybMpOHA4v4jsllQmWKxMAg=="/>
         </item>
     </channel>
 </rss>
