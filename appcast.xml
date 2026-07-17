@@ -3,17 +3,23 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.3</title>
-            <pubDate>Fri, 17 Jul 2026 17:49:41 +0000</pubDate>
-            <sparkle:version>0.5.3</sparkle:version>
-            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <title>0.5.4</title>
+            <pubDate>Fri, 17 Jul 2026 18:59:25 +0000</pubDate>
+            <sparkle:version>0.5.4</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.3</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.4</h2>
 <ul>
-  <li>Add hover-reveal close button to the meeting-detected pill</li>
+  <li>Scope CI test gate to deterministic suites</li>
+  <li>Sustain browser meeting candidacy on mic, not frontmost</li>
+  <li>Fix CI test gate build: disable code signing like the release build</li>
+  <li>Require the full test gate on CI before every release</li>
+  <li>Split diarized utterances at speaker boundaries; Zoom-style export</li>
+  <li>Add agent onboarding: AGENTS.md, CLAUDE.md, project MCP config</li>
+  <li>Make the local AI engine self-heal when its process dies</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.3/MeetingCoach-0.5.3.dmg" length="54314663" type="application/octet-stream" sparkle:edSignature="WvJpS2ztSSv47NOlXSvHPuQ/C3uHiTdnY0d1LrcJF9t9p8WIP/YD4JjDzm4kckVcgt+s/RAdXb0HW28nuTK+AA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.4/MeetingCoach-0.5.4.dmg" length="54243405" type="application/octet-stream" sparkle:edSignature="a6X4gjh1xhkc/WtrsIO17QYBcwIisI4b5yjtCqV55sDJQyiAIwRwFjxYQqKz29rzepEFzjy+5uUereBQiYQNAQ=="/>
         </item>
     </channel>
 </rss>
