@@ -3,18 +3,17 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.2</title>
-            <pubDate>Fri, 17 Jul 2026 17:33:38 +0000</pubDate>
-            <sparkle:version>0.5.2</sparkle:version>
-            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <title>0.5.3</title>
+            <pubDate>Fri, 17 Jul 2026 17:49:41 +0000</pubDate>
+            <sparkle:version>0.5.3</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.2</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.3</h2>
 <ul>
-  <li>Redesign meeting-detected pill to Littlebird-style compound card</li>
-  <li>Add Send Feedback form to the menu bar dropdown</li>
+  <li>Add hover-reveal close button to the meeting-detected pill</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.2/MeetingCoach-0.5.2.dmg" length="54231069" type="application/octet-stream" sparkle:edSignature="pDk2PwA1Zgqp4a7eEEzVwmkpDDTfeuNeAWOod6Pwz19MsxZk8wLMT9Cm2ZrFFSlfHPDIIRiL9LM6c8ONzL1gCg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.3/MeetingCoach-0.5.3.dmg" length="54314663" type="application/octet-stream" sparkle:edSignature="WvJpS2ztSSv47NOlXSvHPuQ/C3uHiTdnY0d1LrcJF9t9p8WIP/YD4JjDzm4kckVcgt+s/RAdXb0HW28nuTK+AA=="/>
         </item>
     </channel>
 </rss>
