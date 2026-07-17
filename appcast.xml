@@ -3,20 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.1</title>
-            <pubDate>Fri, 17 Jul 2026 17:11:39 +0000</pubDate>
-            <sparkle:version>0.5.1</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <title>0.5.2</title>
+            <pubDate>Fri, 17 Jul 2026 17:33:38 +0000</pubDate>
+            <sparkle:version>0.5.2</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.1</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.5.2</h2>
 <ul>
-  <li>Give Debug builds a hammer menu bar icon</li>
-  <li>Go Live starts instantly; mark Debug builds in the version footer</li>
-  <li>Fix wall-of-text transcript in mic-only capture mode</li>
-  <li>Make role tuning work without a local model via built-in presets</li>
+  <li>Redesign meeting-detected pill to Littlebird-style compound card</li>
+  <li>Add Send Feedback form to the menu bar dropdown</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.1/MeetingCoach-0.5.1.dmg" length="54173852" type="application/octet-stream" sparkle:edSignature="7dgLJr7As1j1XpGSHfj3zwjF8/6DRPZD27eC5Yk89t5isAeTQW1bf7q1bKdVGLUoybMpOHA4v4jsllQmWKxMAg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.2/MeetingCoach-0.5.2.dmg" length="54231069" type="application/octet-stream" sparkle:edSignature="pDk2PwA1Zgqp4a7eEEzVwmkpDDTfeuNeAWOod6Pwz19MsxZk8wLMT9Cm2ZrFFSlfHPDIIRiL9LM6c8ONzL1gCg=="/>
         </item>
     </channel>
 </rss>
