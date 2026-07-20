@@ -3,23 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.6.0</title>
-            <pubDate>Mon, 20 Jul 2026 17:23:23 +0000</pubDate>
-            <sparkle:version>0.6.0</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <title>0.6.1</title>
+            <pubDate>Mon, 20 Jul 2026 18:12:15 +0000</pubDate>
+            <sparkle:version>0.6.1</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.6.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.6.1</h2>
 <ul>
-  <li>New: auto-start coaching — turn it on and coaching begins by itself when a meeting is detected, after a 10-second cancelable countdown</li>
-  <li>Meeting-end detection got smarter: coaching stops within seconds of leaving a Zoom, Meet, or huddle — and never cuts you off mid-sentence</li>
-  <li>Nudges quiet down when you ignore them, in the moment and over time</li>
-  <li>Copy the whole transcript with one click after a call</li>
-  <li>Settings got tabs: pick where transcripts are saved, and your stats live next door</li>
-  <li>Clearer warning when the app can only hear your mic</li>
-  <li>Faster and lighter, especially in hour-long sessions</li>
+  <li>New recommended AI model: Qwen 3.5 — sharper coaching judgment, faster on Apple Silicon, and a smaller download</li>
+  <li>Model catalog refreshed: Qwen 3.5 in three sizes and IBM Granite 4 added, older models retired</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.0/MeetingCoach-0.6.0.dmg" length="54323478" type="application/octet-stream" sparkle:edSignature="/778WmsXH+FOJN2ba3vsswM02mXZ82+RPmAkQSUuVDth+y99DNxrxay3hlQY6hFhCCuuU8ab1uI5Azv2LeWvAg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.1/MeetingCoach-0.6.1.dmg" length="54521322" type="application/octet-stream" sparkle:edSignature="MxlW26Rb/hnnVmy/zdzPXYULvC3LtkfL/qnWbDVsJL17Ru9Aefy3tr9c7PRMfe/dD1/N8Pn51F25TLK2/tE+BA=="/>
         </item>
     </channel>
 </rss>
