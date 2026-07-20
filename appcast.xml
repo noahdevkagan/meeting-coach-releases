@@ -3,18 +3,23 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.5.8</title>
-            <pubDate>Fri, 17 Jul 2026 22:38:28 +0000</pubDate>
-            <sparkle:version>0.5.8</sparkle:version>
-            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <title>0.6.0</title>
+            <pubDate>Mon, 20 Jul 2026 17:23:23 +0000</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.5.8</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.6.0</h2>
 <ul>
-  <li>Add 10 test redemption codes to the AppSumo hash set</li>
-  <li>Single main window; auto-stop coaching when the meeting ends</li>
+  <li>New: auto-start coaching — turn it on and coaching begins by itself when a meeting is detected, after a 10-second cancelable countdown</li>
+  <li>Meeting-end detection got smarter: coaching stops within seconds of leaving a Zoom, Meet, or huddle — and never cuts you off mid-sentence</li>
+  <li>Nudges quiet down when you ignore them, in the moment and over time</li>
+  <li>Copy the whole transcript with one click after a call</li>
+  <li>Settings got tabs: pick where transcripts are saved, and your stats live next door</li>
+  <li>Clearer warning when the app can only hear your mic</li>
+  <li>Faster and lighter, especially in hour-long sessions</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.5.8/MeetingCoach-0.5.8.dmg" length="54310328" type="application/octet-stream" sparkle:edSignature="GafVaOIV3HZ9AF+OFVtAITw/C8MxTZUsCJS6Iylk8ua6bJxLfGMqdfYk7WBemZJOnQfLvJO/xLDkDIcVUPhmBQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.0/MeetingCoach-0.6.0.dmg" length="54323478" type="application/octet-stream" sparkle:edSignature="/778WmsXH+FOJN2ba3vsswM02mXZ82+RPmAkQSUuVDth+y99DNxrxay3hlQY6hFhCCuuU8ab1uI5Azv2LeWvAg=="/>
         </item>
     </channel>
 </rss>
