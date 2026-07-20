@@ -3,18 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.6.1</title>
-            <pubDate>Mon, 20 Jul 2026 18:12:15 +0000</pubDate>
-            <sparkle:version>0.6.1</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <title>0.6.2</title>
+            <pubDate>Mon, 20 Jul 2026 20:00:07 +0000</pubDate>
+            <sparkle:version>0.6.2</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.6.1</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.6.2</h2>
 <ul>
-  <li>New recommended AI model: Qwen 3.5 — sharper coaching judgment, faster on Apple Silicon, and a smaller download</li>
-  <li>Model catalog refreshed: Qwen 3.5 in three sizes and IBM Granite 4 added, older models retired</li>
+  <li>Coaching now reliably stops when your meeting ends — saying goodbye right before hanging up no longer made it miss the ending</li>
+  <li>No more "You're still talking" while you wait alone for others to join</li>
+  <li>Your saved coaching notes now actually tune the coach — pasted feedback teaches the signals it names, and the save button shows what it learned</li>
+  <li>A calmer, lighter look: warm paper background, serif titles, quieter nudge cards, and human signal names ("Stacked Qs", not "stackedQuestions")</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.1/MeetingCoach-0.6.1.dmg" length="54521322" type="application/octet-stream" sparkle:edSignature="MxlW26Rb/hnnVmy/zdzPXYULvC3LtkfL/qnWbDVsJL17Ru9Aefy3tr9c7PRMfe/dD1/N8Pn51F25TLK2/tE+BA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.2/MeetingCoach-0.6.2.dmg" length="54498227" type="application/octet-stream" sparkle:edSignature="wFf6EgbzHllqey+5Yemj88W1MCROyxNx2jZ6KAWhRONoAKADR38Ehqg6Va0Nhd83TU2un14wugxXkUX+YDzSBw=="/>
         </item>
     </channel>
 </rss>
