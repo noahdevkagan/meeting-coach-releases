@@ -3,18 +3,22 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.6.3</title>
-            <pubDate>Mon, 20 Jul 2026 21:19:10 +0000</pubDate>
-            <sparkle:version>0.6.3</sparkle:version>
-            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <title>0.7.0</title>
+            <pubDate>Tue, 21 Jul 2026 19:24:06 +0000</pubDate>
+            <sparkle:version>0.7.0</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.6.3</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.7.0</h2>
 <ul>
-  <li>Stopping a session keeps your whole transcript on screen — including the words you were still saying when you hit Stop (they now land in the saved session too)</li>
-  <li>Nudges and Transcript panes are back to clean white; the warm tint stays in the sidebar only</li>
+  <li>A calmer, simpler MeetingCoach: the live transcript is now the main event, with your talk-time split and elapsed time shown as quiet ambient info — not warnings</li>
+  <li>Far fewer interruptions: only a handful of high-value nudges fire by default (talk time, one question at a time, action items, locking a real date, one genuine win). Everything else moved to Coaching Style, off by default — re-enable any signal you miss</li>
+  <li>Zero setup to start: no goal step, no AI-nudges toggle, no focus picker. Goal setup and coaching customization live under Advanced; AI nudges and the meeting summary switch on automatically when a local model is installed</li>
+  <li>Your recap now generates itself when you stop — summary, action items, and talk split, no button</li>
+  <li>Search your chats: one search box over every saved conversation, grouped by meeting with the moment highlighted</li>
+  <li>Connect Claude and other AI agents to your meetings: a built-in MCP server lets agents list, search, and read your saved transcripts — fully local, over stdio, nothing leaves your Mac. Setup: open Advanced → Agent access → copy the `claude mcp add` command (or point your agent at `MeetingCoach.app/Contents/MacOS/meetingcoach-mcp`)</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.6.3/MeetingCoach-0.6.3.dmg" length="54501719" type="application/octet-stream" sparkle:edSignature="VnU40D5mf8mV7bN/pe4CRwu4Mx3WM7Oo6Asv5t5VwVcFSj/BZz+qi3uOLjEyG7FrjEqrWyktlXqEhcm8tImLAQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.7.0/MeetingCoach-0.7.0.dmg" length="54576487" type="application/octet-stream" sparkle:edSignature="sG37iEjLCuGo+TqKODXESa8owytWuKflHCFiLf5x6STTFhlyN5QicHCJbNlbD2cpYM2ABNtvwOweZywSAur6Dw=="/>
         </item>
     </channel>
 </rss>
