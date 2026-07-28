@@ -3,22 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.8.2</title>
-            <pubDate>Tue, 28 Jul 2026 16:11:25 +0000</pubDate>
-            <sparkle:version>0.8.2</sparkle:version>
-            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <title>0.8.3</title>
+            <pubDate>Tue, 28 Jul 2026 16:44:36 +0000</pubDate>
+            <sparkle:version>0.8.3</sparkle:version>
+            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.8.2</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.8.3</h2>
 <ul>
-  <li>Coaching Notes now actually learn from anything you paste: feedback from Claude or any AI tool gets read by your local model — known signals tune up, and brand-new patterns ("you keep selling after they've said yes") become proposed signals you approve on the Progress dashboard before the coach starts watching for them</li>
-  <li>Installed models are recognized the moment the app opens — no more "Download Model" showing over a model you already downloaded</li>
-  <li>Time-based nudges ("1min left", time check, overrun) now only run when you give the call a length — set it in the goal form, or pick a default for every call in Settings → General</li>
-  <li>Questions to Ask clears itself when the call ends, ready for the next meeting's list — and still ticks off automatically as you ask them, with a tap to override either way</li>
-  <li>"What was said" appears only on nudges that have an actual moment to quote</li>
-  <li>The coach panel can be dragged much wider, and Progress tiles now say what they measure: your last 7 days vs the prior 7</li>
+  <li>Your Progress now counts real weeks: "this week" starts Monday, compared against all of last week — no more rolling 7-day windows that read like wrong numbers</li>
+  <li>Coach suggestion cards now say exactly what Apply will do ("waits 50% longer between nudges", "starts watching for this next call") instead of leaving you guessing</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.8.2/MeetingCoach-0.8.2.dmg" length="55789201" type="application/octet-stream" sparkle:edSignature="2luHBrZsb2xCJ/6DQ9gEMiZqApBVgdPgT0y5thkhXEU1aLxgtKLOvLzLoDrUSs3Ngf3E86U9RuVGNRkb8jG5BQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.8.3/MeetingCoach-0.8.3.dmg" length="54736064" type="application/octet-stream" sparkle:edSignature="8izgGdhCBF+1L+zr/m2DgXHIlMADaWlIDW59YodEDhM8xRXZOS/ICrwf8o1+Tcxzccq6zumQxfbyGFwJ6Wx/CQ=="/>
         </item>
     </channel>
 </rss>
