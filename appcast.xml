@@ -3,18 +3,17 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.9.1</title>
-            <pubDate>Wed, 29 Jul 2026 15:58:37 +0000</pubDate>
-            <sparkle:version>0.9.1</sparkle:version>
-            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <title>0.9.2</title>
+            <pubDate>Wed, 29 Jul 2026 18:40:18 +0000</pubDate>
+            <sparkle:version>0.9.2</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.9.1</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.9.2</h2>
 <ul>
-  <li>Give MeetingCoach to a friend for FREE: grab an invite from the menu bar (you have 3) — one click copies a ready-to-send message with a code your friend redeems free on AppSumo</li>
-  <li>After your first coached meeting, MeetingCoach asks if you know someone who'd want it too</li>
+  <li>First sessions now say when transcript accuracy is reduced: a banner during the call (and a note on the review) explains the high-accuracy engine is still downloading and will be ready next session — no more "why did it only catch random words?"</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.9.1/MeetingCoach-0.9.1.dmg" length="54898662" type="application/octet-stream" sparkle:edSignature="46xd1W3gaTa4nyoXxL/zlQspxCa8VUnFpnQRZcg9gCivBM7/fs54lj23kSVSi0czlGvHHiGR/KrjesiaKxjTDQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.9.2/MeetingCoach-0.9.2.dmg" length="54906740" type="application/octet-stream" sparkle:edSignature="FjMqfPnp8H+nqfXrY7P4R9o8Zy5ihdTG+h7Up+AxrM6ryS+ForjQokFcD1x6F13lJ9aUsKPZd34/as6Rl4JZAQ=="/>
         </item>
     </channel>
 </rss>
