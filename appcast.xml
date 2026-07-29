@@ -3,22 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.9.0</title>
-            <pubDate>Tue, 28 Jul 2026 21:34:57 +0000</pubDate>
-            <sparkle:version>0.9.0</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <title>0.9.1</title>
+            <pubDate>Wed, 29 Jul 2026 15:58:37 +0000</pubDate>
+            <sparkle:version>0.9.1</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.9.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.9.1</h2>
 <ul>
-  <li>The transcript now tells remote speakers apart: on a group call, "Them" splits into "Them 1", "Them 2", … as each person talks</li>
-  <li>Click any speaker's label to name them — the whole transcript relabels, and their voice is remembered on your Mac so future meetings greet them by name from the first sentence</li>
-  <li>The coach spots names on its own ("Them 1 sounds like Sarah") and offers a one-click confirm — it never applies a name without you</li>
-  <li>People you list in the call's goal form are recognized first</li>
-  <li>Voice matching runs entirely on-device, like everything else — no audio or voice data ever leaves your Mac</li>
-  <li>Tuned to stay light on long calls: less memory for audio, less work per second</li>
+  <li>Give MeetingCoach to a friend for FREE: grab an invite from the menu bar (you have 3) — one click copies a ready-to-send message with a code your friend redeems free on AppSumo</li>
+  <li>After your first coached meeting, MeetingCoach asks if you know someone who'd want it too</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.9.0/MeetingCoach-0.9.0.dmg" length="54809698" type="application/octet-stream" sparkle:edSignature="xH6LuwTAl4ws+OxaV/2YmfMiQ8BixhwP6dFtSzYLUjawPCwqiuBo2z7dp7xblllbHlpbN0GPmb4zxv8Reu0bCQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.9.1/MeetingCoach-0.9.1.dmg" length="54898662" type="application/octet-stream" sparkle:edSignature="46xd1W3gaTa4nyoXxL/zlQspxCa8VUnFpnQRZcg9gCivBM7/fs54lj23kSVSi0czlGvHHiGR/KrjesiaKxjTDQ=="/>
         </item>
     </channel>
 </rss>
