@@ -3,21 +3,18 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.11.0</title>
-            <pubDate>Tue, 04 Aug 2026 04:51:30 +0000</pubDate>
-            <sparkle:version>0.11.0</sparkle:version>
-            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <title>0.11.1</title>
+            <pubDate>Tue, 04 Aug 2026 06:35:50 +0000</pubDate>
+            <sparkle:version>0.11.1</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.11.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.11.1</h2>
 <ul>
-  <li>New first-run checklist: the main pane walks you to your first coached meeting — two permissions with Grant buttons, both models downloading with real progress bars (they start on their own, no clicks), then "join a meeting"</li>
-  <li>Coming from Granola? Export your meetings as a CSV in Granola, pick the file in Settings → General, and your notes become searchable MeetingCoach sessions — on your Mac, like everything else</li>
-  <li>The give-MeetingCoach-to-a-friend prompt now waits for your second coached meeting instead of interrupting the glow of the first</li>
-  <li>Fixed: at narrow widths the coach panel could clip its cards on both edges, cutting text mid-word — the panel now refuses to shrink past readable</li>
-  <li>The sidebar's Advanced section starts open so Questions to Ask and Coaching Notes are visible, and the whole header row is clickable</li>
+  <li>Fixed a crash when editing lists with a row deleted mid-edit — typing in a vocabulary term, pre-call participant, or custom coaching signal and removing a row could quit the app and lose what you typed</li>
+  <li>Vocabulary edits now confirm themselves: a green "Saved" appears when a term is stored, and a hint tells you when a row still needs its "Corrected to…" filled in to save</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.11.0/MeetingCoach-0.11.0.dmg" length="55209921" type="application/octet-stream" sparkle:edSignature="I2O0hUE85kYj2ijBOLyjoenXOXzBnUW/WwIXtiK21zExJoV8aX9GcczXrB2fcpi2RN0v/7GKMd+vF8RTShUoAA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.11.1/MeetingCoach-0.11.1.dmg" length="55040146" type="application/octet-stream" sparkle:edSignature="NVuPnY4rBFlCwT/2PNwDkKcq9L62H2b7qYUvSyPZymYdZg0b2ZxSK+hSRtKATQdocuSjvX69C4NkrZhCYTIqAA=="/>
         </item>
     </channel>
 </rss>
