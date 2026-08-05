@@ -3,23 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.13.0</title>
-            <pubDate>Wed, 05 Aug 2026 05:59:22 +0000</pubDate>
-            <sparkle:version>0.13.0</sparkle:version>
-            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <title>0.14.0</title>
+            <pubDate>Wed, 05 Aug 2026 19:42:24 +0000</pubDate>
+            <sparkle:version>0.14.0</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.13.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.14.0</h2>
 <ul>
-  <li>A fresh coat of paint everywhere: new AppSumo-yellow Go live button, cleaner type, and a simpler title bar — same layout and flow you already know</li>
-  <li>Follows your Mac's appearance: light, dark, or auto — the new design now has a proper dark side</li>
-  <li>Meeting reviews became real meeting notes: a headline-first summary, takeaways with the actual numbers and names, and next steps as "who — what — by when". Old sessions can be rewritten too — open one and hit "Regenerate with AI" in the Summary tab</li>
-  <li>Fixed: if the AI model you'd selected was never finished downloading, every AI feature (reviews, name suggestions, smart nudges) silently did nothing — the app now uses whichever model is actually installed</li>
-  <li>Sessions open in tabs — Transcript, Summary, Coaching — with Copy and Export (Markdown, plain text, or just the summary)</li>
-  <li>The sessions list shows friendly dates instead of filenames, and "See all" reveals your full history</li>
-  <li>Your Progress is the home screen again, redesigned to match</li>
+  <li>No more picking an AI model that's too big for your Mac: the app now knows how much memory you have — the model list only shows ones that will run well, the recommended download matches your machine, and the biggest models stay reserved for Macs that can handle them</li>
+  <li>If a too-big model does end up selected (say, from before this update), you get a clear orange note in Settings and the app quietly uses your best-fitting installed model instead — no more whole-Mac freeze mid-meeting</li>
+  <li>The AI model now loads when the app starts, not in the first minute of your call — meetings begin with coaching ready instead of your Mac straining right when the call gets going</li>
+  <li>Under the hood: removed a chunk of leftover code from retired features, so the app is a little leaner</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.13.0/MeetingCoach-0.13.0.dmg" length="55820484" type="application/octet-stream" sparkle:edSignature="RftXGKT+rekCUO0+uBjeEwiZ40ybPHG4F4AzSxTPE+MwumXTaTcfRB2LW81Q/4Ts5HBkrWpuNmcAoDAB4HAjCg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.14.0/MeetingCoach-0.14.0.dmg" length="55694435" type="application/octet-stream" sparkle:edSignature="Qr6mWUC8LLYoavP8zDlc2/jdkZBNCjNGOK677dOSphHmhmMpSys66FjNGRldYrunU+sAflN5GXvEqlRcYC0qAg=="/>
         </item>
     </channel>
 </rss>
