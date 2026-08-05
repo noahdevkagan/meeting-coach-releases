@@ -3,20 +3,17 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.14.0</title>
-            <pubDate>Wed, 05 Aug 2026 19:42:24 +0000</pubDate>
-            <sparkle:version>0.14.0</sparkle:version>
-            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <title>0.15.0</title>
+            <pubDate>Wed, 05 Aug 2026 21:01:32 +0000</pubDate>
+            <sparkle:version>0.15.0</sparkle:version>
+            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.14.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.15.0</h2>
 <ul>
-  <li>No more picking an AI model that's too big for your Mac: the app now knows how much memory you have — the model list only shows ones that will run well, the recommended download matches your machine, and the biggest models stay reserved for Macs that can handle them</li>
-  <li>If a too-big model does end up selected (say, from before this update), you get a clear orange note in Settings and the app quietly uses your best-fitting installed model instead — no more whole-Mac freeze mid-meeting</li>
-  <li>The AI model now loads when the app starts, not in the first minute of your call — meetings begin with coaching ready instead of your Mac straining right when the call gets going</li>
-  <li>Under the hood: removed a chunk of leftover code from retired features, so the app is a little leaner</li>
+  <li>Fixed: switching audio devices mid-meeting (taking a phone call on your Mac, connecting AirPods, plugging in a headset) silently killed the microphone — the app kept saying "Listening" but stopped transcribing. It now detects the change and reconnects to your mic automatically</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.14.0/MeetingCoach-0.14.0.dmg" length="55694435" type="application/octet-stream" sparkle:edSignature="Qr6mWUC8LLYoavP8zDlc2/jdkZBNCjNGOK677dOSphHmhmMpSys66FjNGRldYrunU+sAflN5GXvEqlRcYC0qAg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.15.0/MeetingCoach-0.15.0.dmg" length="55732148" type="application/octet-stream" sparkle:edSignature="pu5ThJCZOFo+DghEKeJZPuiuxUpeck8zIHa5M1z1e5tnrRUA4joAWNip1VeEcRf/lnLiIchOJFxB91O4CjTQDw=="/>
         </item>
     </channel>
 </rss>
