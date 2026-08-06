@@ -3,17 +3,19 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.15.0</title>
-            <pubDate>Wed, 05 Aug 2026 21:01:32 +0000</pubDate>
-            <sparkle:version>0.15.0</sparkle:version>
-            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+            <title>0.16.0</title>
+            <pubDate>Thu, 06 Aug 2026 14:52:29 +0000</pubDate>
+            <sparkle:version>0.16.0</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.15.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.16.0</h2>
 <ul>
-  <li>Fixed: switching audio devices mid-meeting (taking a phone call on your Mac, connecting AirPods, plugging in a headset) silently killed the microphone — the app kept saying "Listening" but stopped transcribing. It now detects the change and reconnects to your mic automatically</li>
+  <li>Phone calls on your Mac no longer silence coaching: handing a call to the Mac makes the iPhone's microphone the system input, which delivers nothing to other apps — the app kept saying "Listening" over an empty transcript. It now detects that and listens through the Mac's own microphone instead, whether the call started before or during your session</li>
+  <li>Granola re-import now repairs meetings that came in empty: if an earlier import left a meeting without its transcript (a bug fixed in 0.12.0), importing the same export again fills the transcript in instead of saying "already imported" — your renames and notes stay untouched</li>
+  <li>The Questions to Ask, Coaching Notes, and Model rows in Advanced now open with a click anywhere on the row, not just the tiny chevron</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.15.0/MeetingCoach-0.15.0.dmg" length="55732148" type="application/octet-stream" sparkle:edSignature="pu5ThJCZOFo+DghEKeJZPuiuxUpeck8zIHa5M1z1e5tnrRUA4joAWNip1VeEcRf/lnLiIchOJFxB91O4CjTQDw=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.16.0/MeetingCoach-0.16.0.dmg" length="56499666" type="application/octet-stream" sparkle:edSignature="taInZPJ9srCz1+clksDZCVKVG6Y0awXA88B9XngHQr0UYtMdwqoxZHxNhsbLCMCJ+jgNpFLi1LDqI5yz61ehBg=="/>
         </item>
     </channel>
 </rss>
