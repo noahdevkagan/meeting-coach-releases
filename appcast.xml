@@ -3,22 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.17.0</title>
-            <pubDate>Thu, 06 Aug 2026 21:40:08 +0000</pubDate>
-            <sparkle:version>0.17.0</sparkle:version>
-            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+            <title>0.17.1</title>
+            <pubDate>Mon, 10 Aug 2026 18:04:15 +0000</pubDate>
+            <sparkle:version>0.17.1</sparkle:version>
+            <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.17.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.17.1</h2>
 <ul>
-  <li>FaceTime and iPhone calls taken on your Mac are now real meetings: they trigger the "Meeting detected" prompt just like Zoom, and call sessions are titled with the caller's name</li>
-  <li>When a call's audio never reaches your Mac (you answered on the iPhone, or it's playing in a headset), the app now says "Can't hear this meeting" with how to fix it — instead of showing "Listening" over an empty transcript and then blaming a quiet room</li>
-  <li>Sessions get real names: the AI review that reads your whole meeting now titles it — "Caitlin · margins & win-back" instead of a word collage. Your own renames always win</li>
-  <li>The AI model frees its memory (several GB) whenever you're not in a meeting — it loads the moment a meeting is detected and unloads after your recap is ready</li>
-  <li>Lower processor use during calls: coaching skips AI passes when the conversation hasn't moved, and transcription stops re-reading long monologues every second</li>
-  <li>Fixed: quiet speech close to the mic could be silently discarded as speaker echo</li>
+  <li>A red dot on the menu bar icon shows when an update is waiting, with "Update available…" pinned to the top of the dropdown — so a dismissed update popup doesn't mean a missed update</li>
+  <li>Fixed a crash on Intel Macs: the high-accuracy transcription model only runs on Apple Silicon, and starting a session on an Intel Mac could quit the app mid-meeting. Intel Macs now automatically use Apple's built-in transcription instead, and the app says clearly (during setup and in each session) that Intel isn't fully supported — reduced accuracy, no speaker identification. Intel Macs also no longer download the unusable 600 MB model</li>
+  <li>The truth about FaceTime and phone calls on your Mac: macOS blocks every app from hearing them — including the microphone itself, which goes silent for other apps the moment a call connects. Previously the app pretended to listen anyway and blamed you for 100% of the talking; now it detects the call and tells you straight, with what actually works: answer on your iPhone on speakerphone near your Mac, or use Zoom/Meet for coached calls</li>
+  <li>The microphone also now notices when it's receiving dead silence (a call grabbed it mid-session, a device glitch) and reconnects automatically instead of listening to nothing forever</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.17.0/MeetingCoach-0.17.0.dmg" length="55796866" type="application/octet-stream" sparkle:edSignature="0eBq5wYcauS61z3bOFDIkd5WJ9D0LAa5C/hbISQ+Q/nd5fR/6XUnf6rmIVxLFhAXXbA/NvqZvNAFcI5/t8ReBg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.17.1/MeetingCoach-0.17.1.dmg" length="55836523" type="application/octet-stream" sparkle:edSignature="c0TLVM5t4QAOjPijGmn3WYEifo0U7o5BPKjOvtdWjQbNd5Xs3rcvrMd3CuuRURGCnI7zIGpoWZtAYfGHmgGbBQ=="/>
         </item>
     </channel>
 </rss>
