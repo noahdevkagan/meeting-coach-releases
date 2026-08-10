@@ -3,20 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.17.1</title>
-            <pubDate>Mon, 10 Aug 2026 18:04:15 +0000</pubDate>
-            <sparkle:version>0.17.1</sparkle:version>
-            <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
+            <title>0.17.2</title>
+            <pubDate>Mon, 10 Aug 2026 20:45:47 +0000</pubDate>
+            <sparkle:version>0.17.2</sparkle:version>
+            <sparkle:shortVersionString>0.17.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.17.1</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.17.2</h2>
 <ul>
-  <li>A red dot on the menu bar icon shows when an update is waiting, with "Update available…" pinned to the top of the dropdown — so a dismissed update popup doesn't mean a missed update</li>
-  <li>Fixed a crash on Intel Macs: the high-accuracy transcription model only runs on Apple Silicon, and starting a session on an Intel Mac could quit the app mid-meeting. Intel Macs now automatically use Apple's built-in transcription instead, and the app says clearly (during setup and in each session) that Intel isn't fully supported — reduced accuracy, no speaker identification. Intel Macs also no longer download the unusable 600 MB model</li>
-  <li>The truth about FaceTime and phone calls on your Mac: macOS blocks every app from hearing them — including the microphone itself, which goes silent for other apps the moment a call connects. Previously the app pretended to listen anyway and blamed you for 100% of the talking; now it detects the call and tells you straight, with what actually works: answer on your iPhone on speakerphone near your Mac, or use Zoom/Meet for coached calls</li>
-  <li>The microphone also now notices when it's receiving dead silence (a call grabbed it mid-session, a device glitch) and reconnects automatically instead of listening to nothing forever</li>
+  <li>Updates now install themselves: they download quietly in the background and apply the next time the app isn't running — never during a meeting. No more missing a fix because an update popup got dismissed</li>
+  <li>If an update has been waiting a few days (this app rarely quits, so it rarely gets the chance to install), the app offers it right after a call ends — at most once a day, and never while you're in one. The menu bar shows how long it's been waiting</li>
+  <li>Prefer to review each update yourself? Settings → General → "Install updates automatically" turns the automatic behavior off; the menu bar dot still tells you when one is ready</li>
+  <li>The app now records its version when it starts, so support questions get answered from your first log line instead of guesswork</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.17.1/MeetingCoach-0.17.1.dmg" length="55836523" type="application/octet-stream" sparkle:edSignature="c0TLVM5t4QAOjPijGmn3WYEifo0U7o5BPKjOvtdWjQbNd5Xs3rcvrMd3CuuRURGCnI7zIGpoWZtAYfGHmgGbBQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.17.2/MeetingCoach-0.17.2.dmg" length="55973923" type="application/octet-stream" sparkle:edSignature="0HY67bkW99BKxhh2CY7B4Jt0cQNDvoxv693YUWpjHVm4Wxt24I2wHY+4ENr6llEIWdqq9ViaZS8K3pvCFDa/Cg=="/>
         </item>
     </channel>
 </rss>
