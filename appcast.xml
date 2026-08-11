@@ -3,25 +3,20 @@
     <channel>
         <title>MeetingCoach</title>
         <item>
-            <title>0.18.0</title>
-            <pubDate>Tue, 11 Aug 2026 20:57:35 +0000</pubDate>
-            <sparkle:version>0.18.0</sparkle:version>
-            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <title>0.18.1</title>
+            <pubDate>Tue, 11 Aug 2026 21:26:24 +0000</pubDate>
+            <sparkle:version>0.18.1</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.18.0</h2>
+            <description><![CDATA[<h2>Meeting Coach 0.18.1</h2>
 <ul>
-  <li>Naming speakers is now dependable: rename someone once and they stay named — including the words they said before the transcript learned to tell voices apart, and anything they say next. On a two-person call, naming the other person (or listing them in pre-call setup) labels the whole far side with their name; if a third voice joins, the transcript honestly goes back to numbered speakers</li>
-  <li>Naming someone in the first moments of a call now still saves their voice — the app waits for enough speech and saves automatically, then keeps the fullest sample at the end of the call so future meetings recognize them</li>
-  <li>Renaming a speaker after a session ends now updates the saved transcript too, so the name is still there when you reopen it</li>
-  <li>The rename popover suggests people you've already named or met with — start typing and pick, or click a suggestion straight away</li>
-  <li>Speaker names now show a pencil icon on hover and a one-time hint on your first real meeting, so it's obvious they're editable</li>
-  <li>Updates now install themselves: they download quietly in the background and apply the next time the app isn't running — never during a meeting. No more missing a fix because an update popup got dismissed</li>
-  <li>If an update has been waiting a few days (this app rarely quits, so it rarely gets the chance to install), the app offers it right after a call ends — at most once a day, and never while you're in one. The menu bar shows how long it's been waiting</li>
-  <li>Prefer to review each update yourself? Settings → General → "Install updates automatically" turns the automatic behavior off; the menu bar dot still tells you when one is ready</li>
-  <li>The app now records its version when it starts, so support questions get answered from your first log line instead of guesswork</li>
+  <li>MeetingCoach now checks how much memory is actually free once a call is underway — not just how much your Mac has — and picks a lighter model when your machine is busy. A 32 GB Mac with a lot already open no longer slows to a crawl mid-meeting</li>
+  <li>If nothing can run safely, coaching continues without the AI parts instead of freezing your call, and it stays that way for the whole meeting rather than loading a model at the end</li>
+  <li>A meeting now uses exactly one model from start to finish, and always releases it when the call is over — including when you stop before saying anything</li>
+  <li>Models are no longer loaded speculatively when a meeting is detected: your Mac only holds one while a call is actually running</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.18.0/MeetingCoach-0.18.0.dmg" length="56014289" type="application/octet-stream" sparkle:edSignature="DQ1ZlYH1m6PO/nARWeQEIU7aFdJbejqpu5dLIsoBttKaae+oeYeDkGWdWmp+U3Qbd0wT34BkrqOmO09lwdq3Bw=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.18.1/MeetingCoach-0.18.1.dmg" length="55933317" type="application/octet-stream" sparkle:edSignature="SenOSV2omxre/hQjqMGYw09ZfOaALU2DVjwA2OeFMFHl8QBobVlVVadhzcAbBNp9cifPh4/6SkB6ZcJz4HmsBQ=="/>
         </item>
     </channel>
 </rss>
