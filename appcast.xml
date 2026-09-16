@@ -1,24 +1,20 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>MeetingCoach</title>
+        <title>MeetMouse</title>
         <item>
-            <title>0.22.0</title>
-            <pubDate>Fri, 04 Sep 2026 18:31:41 +0000</pubDate>
-            <sparkle:version>0.22.0</sparkle:version>
-            <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+            <title>0.23.0</title>
+            <pubDate>Wed, 16 Sep 2026 21:20:43 +0000</pubDate>
+            <sparkle:version>0.23.0</sparkle:version>
+            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Meeting Coach 0.22.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.23.0</h2>
 <ul>
-  <li>Meeting reviews are now organized by topic: a NOTES section with a heading per subject discussed and dense factual bullets under each, plus NEXT STEPS with an owner on every item — instead of one flat list of takeaways. Long meetings fit whole: a 43-minute call is reviewed untrimmed</li>
-  <li>Reviews stick closer to what was actually said: someone who was mentioned is no longer written up as if they spoke, and no deadlines are invented that nobody committed to. Reviews saved by earlier versions still open as before</li>
-  <li>Search matches every word you type, in any order, and highlights each match — "pricing anna" finds the meeting where Anna raised pricing, however the words fell</li>
-  <li>New "Ask AI" card in search results: ask a question across your saved meetings ("what did we decide about the launch date?") and get an answer that cites which meeting each point came from. Runs on your local model; if none is installed, or no meeting matches, it says so</li>
-  <li>Open any saved meeting and ask it questions in the new ask bar at the bottom — answers come from that meeting's transcript and review only</li>
-  <li>The AI model picker now shows each model's download size next to its name</li>
+  <li>The app has a new name and face: MeetMouse, with a phone-listening gray mouse on NoahKagan green throughout the app and the same recognizable animal in the menu bar. Your settings, models, transcripts, and updates continue exactly where they left off</li>
+  <li>If you had connected an AI agent, re-add it: the built-in MCP server moved with the rename. Open Advanced → Agent access and copy the new `claude mcp add` command — an older `meetingcoach` entry points at a path that no longer exists</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.22.0/MeetMouse-0.22.0.dmg" length="56232724" type="application/octet-stream" sparkle:edSignature="EA150axJAROiijP9P+jVEOOhuLvgf1Z3FKGCR3lGAt4hHzdac98FEIuyXiJFgxn9xttvjr3JtiDZXmcnNUrxBg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.23.0/MeetMouse-0.23.0.dmg" length="58988684" type="application/octet-stream" sparkle:edSignature="5h0r4elmrC5SsP365jZ0o5Pm5foQriJiaCegjzUvmJr5QfhyaI7ehnCo/h9XQqXNTBlRlGRjmPDgpZsifTchCA=="/>
         </item>
     </channel>
 </rss>
