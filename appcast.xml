@@ -18,7 +18,7 @@
   <li>The AI model picker now shows each model's download size next to its name</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.22.0/MeetingCoach-0.22.0.dmg" length="56232724" type="application/octet-stream" sparkle:edSignature="EA150axJAROiijP9P+jVEOOhuLvgf1Z3FKGCR3lGAt4hHzdac98FEIuyXiJFgxn9xttvjr3JtiDZXmcnNUrxBg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.22.0/MeetMouse-0.22.0.dmg" length="56232724" type="application/octet-stream" sparkle:edSignature="EA150axJAROiijP9P+jVEOOhuLvgf1Z3FKGCR3lGAt4hHzdac98FEIuyXiJFgxn9xttvjr3JtiDZXmcnNUrxBg=="/>
         </item>
     </channel>
 </rss>
