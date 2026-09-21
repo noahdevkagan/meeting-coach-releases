@@ -3,19 +3,24 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.24.0</title>
-            <pubDate>Thu, 17 Sep 2026 20:54:22 +0000</pubDate>
-            <sparkle:version>0.24.0</sparkle:version>
-            <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+            <title>0.25.0</title>
+            <pubDate>Mon, 21 Sep 2026 19:03:57 +0000</pubDate>
+            <sparkle:version>0.25.0</sparkle:version>
+            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.24.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.25.0</h2>
 <ul>
-  <li>Speaker names now come only from the people you confirm in this call's setup. MeetMouse no longer reaches back to whoever you met with last time — that guest's name can't appear on live text, ASR hints, coaching prompts, saved titles, filenames, or transcript metadata for a call they weren't part of</li>
-  <li>Naming one person no longer names everyone. Previously a single named voice was taken as proof of a one-on-one, so unassigned speech inherited that name; now a second detected voice suspends the guess and each speaker keeps their own label</li>
-  <li>Saved voice profiles are cleaner: a speaker's voice clip now excludes other people's overlapping speech, so a crosstalk moment can't be learned as someone's voice. If less than three seconds of solo speech is available, no profile is saved rather than a bad one</li>
+  <li>Meetings are now the home screen. A cleaner meetings list replaces the coaching dashboard as the starting view; coaching progress stays one click away in the sidebar</li>
+  <li>Open a saved meeting and it lands in a dedicated AI chat: suggested questions, follow-ups, copyable answers, and a stop button. Chats save locally and restore when you return, and clicking an answer's timestamp jumps to that spot in the transcript. Notes, transcript, and coaching stay one click away</li>
+  <li>Share meeting notes with an encrypted, expiring web link: click Share notes on any saved meeting. Only your curated notes and next steps go out — never the transcript, coaching, or chats — encrypted on your Mac before upload, and links expire after 30 days. Preview first, then copy or send; stop sharing anytime from the meeting or from Meetings → Shared links</li>
+  <li>Recipients open shared notes without an account, can forward the link or copy the next steps, and see a small MeetMouse mention after the content</li>
+  <li>Optional cloud AI: add a Claude or OpenAI API key in Settings → AI to run coaching, reviews, and Ask AI on a cloud model. Local stays the default. Meeting text is shared only after you opt in, audio is never uploaded, and keys live in the macOS Keychain on this device only</li>
+  <li>Live view: larger transcript text with clearer speaker headings, a coaching pane that opens by default and can be hidden, and a slimmer sidebar you can hide to focus on the conversation. Scrolling back pauses auto-scroll; Back to live resumes it</li>
+  <li>Meeting questions keep the topic of recent follow-ups, pull in more surrounding transcript context, and cite timestamps from the local model</li>
+  <li>Post-meeting notes now refresh as soon as AI generation finishes, and watching the demo no longer blocks the Meetings and Coaching buttons</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.24.0/MeetMouse-0.24.0.dmg" length="58944458" type="application/octet-stream" sparkle:edSignature="RKh/zOWuAlm86X1akRTdaRVde7Fm8AtYKjt2FdKtamT8NbfWtwW7p5YaXKBOEXOeQYm51bhUV8OCijDgpcLTCg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.25.0/MeetMouse-0.25.0.dmg" length="59489957" type="application/octet-stream" sparkle:edSignature="8HTJu4zMClWUp7P8cam4WhsjO2R4PWCnCpkz4QT+r31D0fYs68oluoUqJ7PCgZP94C7gCNUnPdAkMbzKMGWzDw=="/>
         </item>
     </channel>
 </rss>
