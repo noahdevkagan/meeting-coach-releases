@@ -3,18 +3,17 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.25.1</title>
-            <pubDate>Mon, 21 Sep 2026 21:02:59 +0000</pubDate>
-            <sparkle:version>0.25.1</sparkle:version>
-            <sparkle:shortVersionString>0.25.1</sparkle:shortVersionString>
+            <title>0.25.2</title>
+            <pubDate>Tue, 22 Sep 2026 17:27:47 +0000</pubDate>
+            <sparkle:version>0.25.2</sparkle:version>
+            <sparkle:shortVersionString>0.25.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.25.1</h2>
+            <description><![CDATA[<h2>MeetMouse 0.25.2</h2>
 <ul>
-  <li>Share notes is one click now: it creates and copies the private link right away and opens the ready-to-send screen, with no preview confirmation in between</li>
-  <li>The AI provider control in the bottom-left of the sidebar is now a compact gear icon; hover it for the label</li>
+  <li>Share notes now generates missing AI notes automatically, then creates and copies the private link with visible progress and retryable errors, without an extra confirmation.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.25.1/MeetMouse-0.25.1.dmg" length="59502915" type="application/octet-stream" sparkle:edSignature="CV0Ffc5VHAn/bD+GpKLPM3d8ykurBtrDcbYd5d1GLB8yskc1TfxY2uoUTb4W4Of8Q8jGhODLvfHsp7fddSrlCg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.25.2/MeetMouse-0.25.2.dmg" length="59494309" type="application/octet-stream" sparkle:edSignature="KEEjDqjYY0g51cQHED5fnrMTOsvPqtL0QyBsF6x0590zkNYwv7iQaKd/b71iXru2X2MYk1A5tkWJnm34Qxp3AA=="/>
         </item>
     </channel>
 </rss>
