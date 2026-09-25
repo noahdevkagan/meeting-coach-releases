@@ -3,17 +3,20 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.25.2</title>
-            <pubDate>Tue, 22 Sep 2026 17:27:47 +0000</pubDate>
-            <sparkle:version>0.25.2</sparkle:version>
-            <sparkle:shortVersionString>0.25.2</sparkle:shortVersionString>
+            <title>0.26.0</title>
+            <pubDate>Fri, 25 Sep 2026 18:01:40 +0000</pubDate>
+            <sparkle:version>0.26.0</sparkle:version>
+            <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.25.2</h2>
+            <description><![CDATA[<h2>MeetMouse 0.26.0</h2>
 <ul>
-  <li>Share notes now generates missing AI notes automatically, then creates and copies the private link with visible progress and retryable errors, without an extra confirmation.</li>
+  <li>Local AI coaching no longer reserves transcription memory twice at meeting startup, allowing smaller models to run with less available memory. Model selection labels now distinguish installed models from running AI.</li>
+  <li>The floating meeting overlay is now a compact bubble with a timer, speaker-colored activity bars, and vertical talk-share edges. Coaching nudges and warnings still expand when needed.</li>
+  <li>Connect your Claude subscription in Settings → AI to power coaching, meeting reviews and chat through Claude Code, with no API key required. Text sharing remains opt-in; audio stays on your Mac.</li>
+  <li>Finished meetings open directly to Notes, including when you reopen the window after a call.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.25.2/MeetMouse-0.25.2.dmg" length="59494309" type="application/octet-stream" sparkle:edSignature="KEEjDqjYY0g51cQHED5fnrMTOsvPqtL0QyBsF6x0590zkNYwv7iQaKd/b71iXru2X2MYk1A5tkWJnm34Qxp3AA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.26.0/MeetMouse-0.26.0.dmg" length="59655993" type="application/octet-stream" sparkle:edSignature="d6HTcBSoSkygZDbnSDtGOyx4C5zmHFf89jFM5yIdyxqBbnzGvoIHKkv1a8/yLhn96ivS0HtEA7iheZiInZUADQ=="/>
         </item>
     </channel>
 </rss>
