@@ -3,19 +3,19 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.27.0</title>
-            <pubDate>Mon, 28 Sep 2026 17:44:45 +0000</pubDate>
-            <sparkle:version>0.27.0</sparkle:version>
-            <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+            <title>0.27.1</title>
+            <pubDate>Mon, 28 Sep 2026 20:25:38 +0000</pubDate>
+            <sparkle:version>0.27.1</sparkle:version>
+            <sparkle:shortVersionString>0.27.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.27.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.27.1</h2>
 <ul>
-  <li>Delete saved meetings from their detail view, with confirmation and cleanup of the local transcript, notes, and chat.</li>
-  <li>Meeting titles now describe the purpose, confirmed participants, and company context instead of guessing names from repeated words. Regenerating notes upgrades old keyword titles while preserving manual renames.</li>
-  <li>The meeting bubble's activity bars move faster and more smoothly.</li>
+  <li>Ending a meeting now always opens its notes. Previously only the first meeting after launching the app did; later ones went back to the home screen.</li>
+  <li>Double-click the meeting bubble to open MeetMouse.</li>
+  <li>Removed the extra stop button from the top of the live meeting view. End a meeting from the Stop button in the sidebar or the menu bar.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.27.0/MeetMouse-0.27.0.dmg" length="59686264" type="application/octet-stream" sparkle:edSignature="syUekXKFxOBVIJm59ZhcK4PcSiFc0MQI180C45Hvq7Yc/1BW87DvaACXlRZANwcdSk9WQHWItaGk+NNHchbXBA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.27.1/MeetMouse-0.27.1.dmg" length="59685735" type="application/octet-stream" sparkle:edSignature="YAfJ9c6jNqF8u68EvqONpIhrEq1SgF4uIE8I5LjGK8tV2c7oVq0fE7eHEJtxsHSEETufweWRdmnKBiKuQg1RDg=="/>
         </item>
     </channel>
 </rss>
