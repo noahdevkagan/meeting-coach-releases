@@ -3,19 +3,18 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.27.1</title>
-            <pubDate>Mon, 28 Sep 2026 20:25:38 +0000</pubDate>
-            <sparkle:version>0.27.1</sparkle:version>
-            <sparkle:shortVersionString>0.27.1</sparkle:shortVersionString>
+            <title>0.28.0</title>
+            <pubDate>Fri, 02 Oct 2026 18:01:51 +0000</pubDate>
+            <sparkle:version>0.28.0</sparkle:version>
+            <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.27.1</h2>
+            <description><![CDATA[<h2>MeetMouse 0.28.0</h2>
 <ul>
-  <li>Ending a meeting now always opens its notes. Previously only the first meeting after launching the app did; later ones went back to the home screen.</li>
-  <li>Double-click the meeting bubble to open MeetMouse.</li>
-  <li>Removed the extra stop button from the top of the live meeting view. End a meeting from the Stop button in the sidebar or the menu bar.</li>
+  <li>The talk bubble now defaults to a slim, rounded vertical shape on the right edge of your screen. Choose Floating or Right edge and Horizontal or Vertical in General settings; your saved choices are preserved.</li>
+  <li>AI notes now generate automatically after meetings even when live AI coaching is off or could not load. If AI is unavailable, a basic recap remains available.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.27.1/MeetMouse-0.27.1.dmg" length="59685735" type="application/octet-stream" sparkle:edSignature="YAfJ9c6jNqF8u68EvqONpIhrEq1SgF4uIE8I5LjGK8tV2c7oVq0fE7eHEJtxsHSEETufweWRdmnKBiKuQg1RDg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.28.0/MeetMouse-0.28.0.dmg" length="59732590" type="application/octet-stream" sparkle:edSignature="5gYFW7B77Gnh2v7pqJPwY6R1HRw5DqUgw9ywyA28D8Bs3bu/zRTfnmmG8Q2JXWHZRcO8DEMNjEUBSNmevmQ6BQ=="/>
         </item>
     </channel>
 </rss>
