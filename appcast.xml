@@ -3,18 +3,17 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.29.0</title>
-            <pubDate>Mon, 05 Oct 2026 19:55:17 +0000</pubDate>
-            <sparkle:version>0.29.0</sparkle:version>
-            <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+            <title>0.30.0</title>
+            <pubDate>Wed, 07 Oct 2026 03:50:04 +0000</pubDate>
+            <sparkle:version>0.30.0</sparkle:version>
+            <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.29.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.30.0</h2>
 <ul>
-  <li>Fixed an echo-filter issue that could remove your replies when they reused words from the other speaker’s question, including French coaching conversations.</li>
-  <li>Multi-language meetings: choose "Auto-detect" to transcribe any of the 25 supported languages, even several in one call. Change the language in one click under Start meeting, from the Meeting Detected pill, or mid-meeting from the meeting header; your recent languages stay at the top. AI notes can follow the meeting's language or always be written in English.</li>
+  <li>Optional speaker snapshots: automatically detect your meeting window to help match visible speaker names to voices. Up to six snapshots are read on-device and discarded; suggested names need your confirmation.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.29.0/MeetMouse-0.29.0.dmg" length="59740539" type="application/octet-stream" sparkle:edSignature="lOahMkzmTZXmyYcPlj/rjNxt16OxLBtKpkWrGcPBkPM0Ei2yib4NPYSaLnturOQYlucFdT4+6XbWCvwFivHADQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.30.0/MeetMouse-0.30.0.dmg" length="59895354" type="application/octet-stream" sparkle:edSignature="QgDsIfkJSE8fYsqoI8cxT2aZXRRq0zKaa73Au1KEtYCMFitJa0Hx47Ho/XByNEn8I9d4NZe42rCUR8bIHhsZBw=="/>
         </item>
     </channel>
 </rss>
