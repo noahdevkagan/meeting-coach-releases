@@ -3,19 +3,21 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.31.0</title>
-            <pubDate>Thu, 08 Oct 2026 14:24:12 +0000</pubDate>
-            <sparkle:version>0.31.0</sparkle:version>
-            <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+            <title>0.32.0</title>
+            <pubDate>Sun, 18 Oct 2026 21:50:16 +0000</pubDate>
+            <sparkle:version>0.32.0</sparkle:version>
+            <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.31.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.32.0</h2>
 <ul>
-  <li>Optional automatic speaker snapshots: enable once to detect your meeting window and suggest speaker names each meeting. Images stay on-device and are discarded; names still need confirmation.</li>
-  <li>Speaker snapshots now explain when no visible names were read and that suggestions require a reliable voice match, instead of implying that suggestions are ready.</li>
-  <li>MeetMouse now warns you when it can't hear your microphone — for example when microphone access is off or your Mac's selected mic is silent (a MacBook's built-in mic is off with the lid closed). Before, your side of the meeting could go missing from the transcript with no sign anything was wrong.</li>
+  <li>MeetMouse is now free. New installs get unlimited meetings for the first week, then 3 meetings a week (resets Monday). Your notes, transcripts and search are never locked. For unlimited meetings, invite 2 friends with your link (Get MeetMouse Unlimited, in the menu bar or sidebar), pay $20 once, or enter an AppSumo code. Everyone who installed MeetMouse before this version keeps unlimited automatically.</li>
+  <li>Fixed meetings not stopping automatically after a Zoom call. Zoom 7 (Zoom Workplace) renamed its windows' owner, so MeetMouse never saw the meeting window and could not tell the call had ended; the meeting window is now recognized by the app's identity instead of its display name. Automatic speaker snapshots find the Zoom 7 window again for the same reason.</li>
+  <li>Shared meeting notes now live at meetmouse.com links. Links created earlier on rhinovoice.app keep working.</li>
+  <li>If the other side of a call goes silent because macOS stopped delivering system audio — a headset connecting mid-call, a display sleeping, or a locked screen — MeetMouse now rebuilds the capture automatically and keeps trying until it returns. Before, the rest of the call could be missing the other person with "Listening (you + them)" still showing.</li>
+  <li>Speaker snapshots can now name the other person on one-on-one Zoom calls with no speaker highlight, such as while they share their screen. Add your name under Settings → General → Speaker names so MeetMouse can tell your tile from theirs. The name still needs your confirmation.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.31.0/MeetMouse-0.31.0.dmg" length="60015425" type="application/octet-stream" sparkle:edSignature="KIbJwmYr8iVJ82k+15hKd/AXVBzYAUm7PzethrqnRmeq0/fslVtt0PVyRYZkc/t+TTppLJakAucZM5a/tc0TAA=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.32.0/MeetMouse-0.32.0.dmg" length="60393863" type="application/octet-stream" sparkle:edSignature="bIVRHZLoduSZDK2Mo6nCgjj9FgjWEpB6CknNQfS4+97dVCCLFnuWv1NeXTCCBNOCLwf+9EoqvkyQ+q409mVuAQ=="/>
         </item>
     </channel>
 </rss>
