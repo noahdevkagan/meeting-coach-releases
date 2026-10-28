@@ -3,20 +3,17 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.33.0</title>
-            <pubDate>Wed, 21 Oct 2026 15:54:26 +0000</pubDate>
-            <sparkle:version>0.33.0</sparkle:version>
-            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+            <title>0.33.1</title>
+            <pubDate>Wed, 28 Oct 2026 04:11:52 +0000</pubDate>
+            <sparkle:version>0.33.1</sparkle:version>
+            <sparkle:shortVersionString>0.33.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.33.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.33.1</h2>
 <ul>
-  <li>Press Control–Command–M from any app to open MeetMouse while it’s running in the menu bar. Disable the shortcut in Settings → General.</li>
-  <li>Right after a meeting's notes are ready, MeetMouse offers once to copy a private link to send them to the people in the meeting. Dismiss it and it won't ask for that meeting; dismiss it three meetings in a row and it stops asking.</li>
-  <li>Shared notes pages now credit MeetMouse with a small link to the site.</li>
-  <li>Invite links now send friends straight to the free download.</li>
+  <li>When a call plays through your Mac's built-in speakers, MeetMouse now shows a one-line tip to use headphones. Without them your mic also hears the other side, so their words can show up as yours or both sides can blend into one block. Dismiss it with the x for that meeting.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.33.0/MeetMouse-0.33.0.dmg" length="60242893" type="application/octet-stream" sparkle:edSignature="Q8YuGYU0w4ywFiGAPW7IjkpDhhV3C6jmzBInvZNks9h5soG3sd8Q02CMqurOLyxbafntbH/7R8GNUGE35ozMBg=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.33.1/MeetMouse-0.33.1.dmg" length="60375901" type="application/octet-stream" sparkle:edSignature="gPRAgqc1vZf0YXPkWlr3S8cO/TkH/vhPNIupHksdJRFG9gwF8uxUEiHBdqxQAxWUUwXl46A+mR/opUYlU0D3AA=="/>
         </item>
     </channel>
 </rss>
