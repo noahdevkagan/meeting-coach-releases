@@ -3,17 +3,17 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.36.0</title>
-            <pubDate>Tue, 17 Nov 2026 20:29:33 +0000</pubDate>
-            <sparkle:version>0.36.0</sparkle:version>
-            <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
+            <title>0.36.1</title>
+            <pubDate>Wed, 18 Nov 2026 17:48:37 +0000</pubDate>
+            <sparkle:version>0.36.1</sparkle:version>
+            <sparkle:shortVersionString>0.36.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.36.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.36.1</h2>
 <ul>
-  <li>Bought MeetMouse on AppSumo? MeetMouse now asks for your code once when you open it, and "Enter AppSumo Code…" in the menu bar and sidebar takes you straight to the code box. The code box now sits at the top of Get MeetMouse Unlimited, and the sidebar shows "Unlimited ✓" once you're unlocked.</li>
+  <li>The unlock code box now says "Have an unlock code?" and takes AppSumo and $20-purchase codes alike; the menu bar and sidebar item is now "Enter Unlock Code…".</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.36.0/MeetMouse-0.36.0.dmg" length="60598542" type="application/octet-stream" sparkle:edSignature="YvStZ1TdG0cnXX3RlUM7ahm+/Xl5pY4dBySUF96vbhyJTJi60HaXupDW8+4QuHzvfx7jKG0XsaSUmy/noP/nAQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.36.1/MeetMouse-0.36.1.dmg" length="60719104" type="application/octet-stream" sparkle:edSignature="gb4ru+yxj0yvEWWH0PZv3PwE4hf8I4C61wLJdEkhpavyOdRK3rdovIRidgFmWn3UT8dV3cXaQ/F9OaEUb32zCw=="/>
         </item>
     </channel>
 </rss>
