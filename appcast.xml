@@ -3,17 +3,21 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.36.1</title>
-            <pubDate>Wed, 18 Nov 2026 17:48:37 +0000</pubDate>
-            <sparkle:version>0.36.1</sparkle:version>
-            <sparkle:shortVersionString>0.36.1</sparkle:shortVersionString>
+            <title>0.37.0</title>
+            <pubDate>Wed, 25 Nov 2026 05:43:52 +0000</pubDate>
+            <sparkle:version>0.37.0</sparkle:version>
+            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MeetMouse 0.36.1</h2>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>MeetMouse 0.37.0</h2>
 <ul>
-  <li>The unlock code box now says "Have an unlock code?" and takes AppSumo and $20-purchase codes alike; the menu bar and sidebar item is now "Enter Unlock Code…".</li>
+  <li>Naming a second person on a call no longer renames the first person's lines. A line still labeled "Them" (the newest line, or a short reply) is now named on its own: click it, type who said it, and only that line changes; the name then follows that person's voice once MeetMouse has told it apart.</li>
+  <li>MeetMouse no longer suggests a name for plain "Them" lines once the people on the call have been told apart.</li>
+  <li>Fix speaker names after the call: on a saved meeting's Transcript tab, click a speaker's name to rename them on every line or on that line only.</li>
+  <li>When the speech model download keeps losing its connection, MeetMouse now resumes it a few more times instead of failing. If it still can't get through, it explains why and gives you a Terminal command to download the model yourself.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.36.1/MeetMouse-0.36.1.dmg" length="60719104" type="application/octet-stream" sparkle:edSignature="gb4ru+yxj0yvEWWH0PZv3PwE4hf8I4C61wLJdEkhpavyOdRK3rdovIRidgFmWn3UT8dV3cXaQ/F9OaEUb32zCw=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.37.0/MeetMouse-0.37.0.dmg" length="56212988" type="application/octet-stream" sparkle:edSignature="fvbYfyxEHSpageepdQhunCf1RhsIru6UaS76DzHjLuRc9MLeFMKQS4z2YRxg9xzk5tYMejpx7A0g1RDE19mjAQ=="/>
         </item>
     </channel>
 </rss>
