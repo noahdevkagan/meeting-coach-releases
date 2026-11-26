@@ -3,21 +3,20 @@
     <channel>
         <title>MeetMouse</title>
         <item>
-            <title>0.37.0</title>
-            <pubDate>Wed, 25 Nov 2026 05:43:52 +0000</pubDate>
-            <sparkle:version>0.37.0</sparkle:version>
-            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+            <title>0.38.0</title>
+            <pubDate>Thu, 26 Nov 2026 16:11:03 +0000</pubDate>
+            <sparkle:version>0.38.0</sparkle:version>
+            <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>MeetMouse 0.37.0</h2>
+            <description><![CDATA[<h2>MeetMouse 0.38.0</h2>
 <ul>
-  <li>Naming a second person on a call no longer renames the first person's lines. A line still labeled "Them" (the newest line, or a short reply) is now named on its own: click it, type who said it, and only that line changes; the name then follows that person's voice once MeetMouse has told it apart.</li>
-  <li>MeetMouse no longer suggests a name for plain "Them" lines once the people on the call have been told apart.</li>
-  <li>Fix speaker names after the call: on a saved meeting's Transcript tab, click a speaker's name to rename them on every line or on that line only.</li>
-  <li>When the speech model download keeps losing its connection, MeetMouse now resumes it a few more times instead of failing. If it still can't get through, it explains why and gives you a Terminal command to download the model yourself.</li>
+  <li>Teams: one private page for your team's meeting notes. One person buys a team license ($40 once, unlimited seats, at meetmouse.com/team), creates the team in Settings → Team, and clicks "Invite people…". Joining unlocks MeetMouse on each teammate's Mac.</li>
+  <li>On a team, the notes for your new meetings (summary, topics, next steps) go to the team page on their own. Turn that off in Settings → Team, take any meeting off the page from its "Shared with team" menu, or add an older one with "Share with team". Transcripts and coaching stay on your Mac, and notes are encrypted before they leave it.</li>
+  <li>Import from Fireflies: paste your Fireflies API key in Settings and MeetMouse brings your Fireflies meetings (notes and transcripts) over as regular meetings. The key is used once and not saved.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.37.0/MeetMouse-0.37.0.dmg" length="56212988" type="application/octet-stream" sparkle:edSignature="fvbYfyxEHSpageepdQhunCf1RhsIru6UaS76DzHjLuRc9MLeFMKQS4z2YRxg9xzk5tYMejpx7A0g1RDE19mjAQ=="/>
+            <enclosure url="https://github.com/noahdevkagan/meeting-coach-releases/releases/download/v0.38.0/MeetMouse-0.38.0.dmg" length="56276404" type="application/octet-stream" sparkle:edSignature="dZUMWgMZoG5hM5naVInr2cZlESzYGmyxiF8MKu7Ov0206kutzUR0sq9thFb5CIuq3dFXjAc+c02rfUAPXrSMDw=="/>
         </item>
     </channel>
 </rss>
